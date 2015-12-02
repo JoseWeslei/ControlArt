@@ -100,6 +100,7 @@ public class ManterObra extends javax.swing.JFrame {
         );
 
         setTitle("Obras");
+        setResizable(false);
 
         jLabel9.setText("Largura: ");
 

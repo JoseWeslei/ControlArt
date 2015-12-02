@@ -94,6 +94,8 @@ public class ManterExposicao extends javax.swing.JFrame {
 
         pesqB1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/boundary/imgLupa.jpg"))); // NOI18N
 
+        setResizable(false);
+
         lbCodExposicao.setText("Cód. da Exposição:");
         lbCodExposicao.setName("lbCodExposicao"); // NOI18N
 

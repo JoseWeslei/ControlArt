@@ -85,6 +85,7 @@ public class ManterEmprestimo extends javax.swing.JFrame {
         ftfDataOperacaoEmp = new javax.swing.JFormattedTextField();
 
         setTitle("Controle de Empréstimo");
+        setResizable(false);
 
         Codigo_Label.setText("Código:");
 
@@ -214,7 +215,7 @@ public class ManterEmprestimo extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(Busca_Autor_Botao, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Busca_Titulo_Botao, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
